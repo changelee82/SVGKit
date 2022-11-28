@@ -19,7 +19,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git", .upToNextMinor(from: "3.7.0"))
+        .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git", .exact("3.7.4"))
     ],
     targets: [
         .target(
